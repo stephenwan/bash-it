@@ -11,3 +11,13 @@ function now() {
     echo "Pacific        $PT"
     echo "Tokyo          $TK"
 }
+
+PYTHON_UTIL=/Users/stephenwan/Utilities/python
+
+function tounixtime() {
+  python ${PYTHON_UTIL}/tounixtime.py $1
+}
+
+function fromunixtime() {
+  python ${PYTHON_UTIL}/fromunixtime.py $1
+}

@@ -1,5 +1,7 @@
 codes_dir="~/Codes"
 
+alias reload="source ~/.bash_profile"
+
 alias codes="cd ${codes_dir}"
 alias crepo="cd ${codes_dir}/crepo"
 alias myrepo="cd ${codes_dir}/myrepo"
@@ -9,6 +11,8 @@ alias tldr="${codes_dir}/public/bash/tldr/tldr"
 alias ?="dict -h localhost -p 2628 "
 
 alias lookup="find ~/Codes ~/Desktop ~/Documents | fzf "
+
+alias awscpcredential="env | ag aws | pbcopy"
 
 alias godos="ssh -i ~/.ssh/id_rsa_do_stephen stephen@dos"
 
